@@ -5,7 +5,7 @@ describe('getAddressesFromInput function', () => {
     expect(typeof getAddressesFromInput).toBe('function');
   });
 
-  it('builds a extract archive action', () => {
+  it('builds an extract archive action', () => {
     const expected = {
       WFWorkflowActionIdentifier: 'is.workflow.actions.detect.address',
       WFWorkflowActionParameters: {},

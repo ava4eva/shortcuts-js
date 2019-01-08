@@ -7,7 +7,7 @@ describe('addToVariable function', () => {
     expect(typeof addToVariable).toBe('function');
   });
 
-  it('builds a addToVariable action when a variable is passed', () => {
+  it('builds an addToVariable action when a variable is passed', () => {
     const name = variable('Test Variable');
 
     const expected = {

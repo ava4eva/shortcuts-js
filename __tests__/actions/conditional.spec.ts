@@ -33,7 +33,7 @@ describe('conditional function', () => {
     expect(typeof conditional).toBe('function');
   });
 
-  it('builds a if action when no parameters are passed', () => {
+  it('builds an if action when no parameters are passed', () => {
     const actual = conditional({});
 
     const expected: WFWorkflowAction[] = [

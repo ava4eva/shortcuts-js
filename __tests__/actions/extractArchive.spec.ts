@@ -5,7 +5,7 @@ describe('extractArchive function', () => {
     expect(typeof extractArchive).toBe('function');
   });
 
-  it('builds a extract archive action', () => {
+  it('builds an extract archive action', () => {
     const expected = {
       WFWorkflowActionIdentifier: 'is.workflow.actions.unzip',
       WFWorkflowActionParameters: {},

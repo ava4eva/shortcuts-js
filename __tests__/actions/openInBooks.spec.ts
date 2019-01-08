@@ -6,7 +6,7 @@ describe('openInBooks function', () => {
     expect(typeof openInBooks).toBe('function');
   });
 
-  it('builds a openInBooks action', () => {
+  it('builds an openInBooks action', () => {
     const expected = {
       WFWorkflowActionIdentifier: 'com.apple.iBooks.openin',
       WFWorkflowActionParameters: {},

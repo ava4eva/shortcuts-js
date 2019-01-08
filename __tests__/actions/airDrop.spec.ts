@@ -6,7 +6,7 @@ describe('airDrop function', () => {
     expect(typeof airDrop).toBe('function');
   });
 
-  it('builds a airDrop action', () => {
+  it('builds an airDrop action', () => {
     const expected = {
       WFWorkflowActionIdentifier: 'is.workflow.actions.airdropdocument',
       WFWorkflowActionParameters: {},

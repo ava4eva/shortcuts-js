@@ -5,7 +5,7 @@ describe('addToReadingList function', () => {
     expect(typeof addToReadingList).toBe('function');
   });
 
-  it('builds a add to reading list action', () => {
+  it('builds an add to reading list action', () => {
     const expected = {
       WFWorkflowActionIdentifier: 'is.workflow.actions.readinglist',
       WFWorkflowActionParameters: {},

@@ -8,7 +8,7 @@ describe('ask function', () => {
     expect(typeof ask).toBe('function');
   });
 
-  it('builds a ask action when no options are passed', () => {
+  it('builds an ask action when no options are passed', () => {
     const expected = {
       WFWorkflowActionIdentifier: 'is.workflow.actions.ask',
       WFWorkflowActionParameters: {
@@ -22,7 +22,7 @@ describe('ask function', () => {
     expect(actual).toEqual(expected);
   });
 
-  it('builds a ask action when all options are passed as strings', () => {
+  it('builds an ask action when all options are passed as strings', () => {
     const inputType = 'Number';
     const defaultAnswer = 'My answer';
     const question = 'My question';
@@ -44,7 +44,7 @@ describe('ask function', () => {
     expect(actual).toEqual(expected);
   });
 
-  it('builds a ask action when defaultAnswer and question are passed as variable objects', () => {
+  it('builds an ask action when defaultAnswer and question are passed as variable objects', () => {
     const uuid = 'b74c81a8-192a-463f-a0a6-2d327963714f';
     const inputType = 'Date';
 
